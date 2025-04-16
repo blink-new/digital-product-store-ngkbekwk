@@ -30,9 +30,9 @@ export function AccountPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="py-12"
+      className="py-12 w-full"
     >
-      <div className="container max-w-4xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <div className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">My Account</h1>
           <p className="mt-2 text-muted-foreground">

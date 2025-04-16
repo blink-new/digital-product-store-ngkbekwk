@@ -25,7 +25,7 @@ export function ProductDetailPage() {
   
   if (!product) {
     return (
-      <div className="container py-12 text-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-12 text-center">
         <h1 className="text-2xl font-bold">Product not found</h1>
         <p className="mt-4">The product you're looking for doesn't exist or has been removed.</p>
         <Button className="mt-6" asChild>
@@ -43,9 +43,9 @@ export function ProductDetailPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="py-12"
+      className="py-12 w-full"
     >
-      <div className="container">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <Link
           to="/products"
           className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-foreground mb-8"

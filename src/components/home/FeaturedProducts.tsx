@@ -10,8 +10,8 @@ export function FeaturedProducts() {
   const featuredProducts = products.filter(product => product.featured);
   
   return (
-    <section className="py-16 md:py-24">
-      <div className="container">
+    <section className="py-16 md:py-24 w-full">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex flex-col sm:flex-row justify-between items-center mb-10">
           <motion.div
             initial={{ opacity: 0, x: -20 }}

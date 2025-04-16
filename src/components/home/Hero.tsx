@@ -6,8 +6,8 @@ import { Button } from '../ui/button';
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-background py-20 md:py-32">
-      <div className="container relative z-10">
+    <section className="relative overflow-hidden bg-background py-20 md:py-32 w-full">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

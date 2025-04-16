@@ -16,9 +16,9 @@ export function CartPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="py-12"
+      className="py-12 w-full"
     >
-      <div className="container">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="mb-8">
           <h1 className="text-3xl font-bold tracking-tight">Your Cart</h1>
           <p className="mt-2 text-muted-foreground">
@@ -73,7 +73,7 @@ export function CartPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="rounded-lg border bg-card p-12 text-center"
+            className="rounded-lg border bg-card p-12 text-center max-w-2xl mx-auto"
           >
             <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-muted">
               <ShoppingBag className="h-10 w-10 text-muted-foreground" />
